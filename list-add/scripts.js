@@ -1,7 +1,6 @@
 $(function () {
-  // Note order is important here
   $("#add").on("click", function (event) {
-    addListitem($("#mylist"));
+    addListItem($("#mylist"));
     $("input").focus();
   });
 
@@ -14,7 +13,7 @@ $(function () {
   });
 });
 
-function addListitem(list) {
+function addListItem(list) {
   const item = $("<li>");
   const text = $("#input").val();
   item.text(text);
