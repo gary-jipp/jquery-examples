@@ -1,0 +1,36 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+}
+
+div {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.show {
+  padding-top: 1em;
+}
+
+.data {
+  width: 30em;
+  word-break: break-all;
+  height: 1.2em;
+  border: 1px solid #eee;
+  margin-bottom: 1em;
+  padding: 2px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20em;
+}
+
+li {
+  background-color: #eee;
+  color: #888;
+  border: 1px solid #888;
+  margin: 0.2em;
+  padding: 0.4em;
+}
