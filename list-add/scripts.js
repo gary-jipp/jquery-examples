@@ -14,12 +14,11 @@ $(function () {
   });
 });
 
-function addListitem(parent) {
-  const child = $("<li>");
+function addListitem(list) {
+  const item = $("<li>");
   const text = $("#input").val();
-
-  child.text(text);
-  parent.append(child);
+  item.text(text);
+  list.append(item);
 }
 
 function toggleHidden($item) {
