@@ -1,0 +1,33 @@
+html {
+  /* font-family: Helvetica, Arial, sans-serif; */
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5em;
+  margin-left: 1em;
+}
+
+div {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+div {
+  font-family: "Courier New", Courier, monospace;
+}
+
+input{
+  width: 20em;
+  font-size: 0.7em;
+}
+button {
+  height: 1.7em;
+  font-size: 0.7em;
+  background-color: lightgreen;
+}
+
+.data {
+  width: 30em;
+  word-break: break-all;
+  height: 1.2em;
+  border: 1px solid lightgreen;
+  padding: 2px;
+}

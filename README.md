@@ -1,2 +1,7 @@
 # jquery-examples
-Assorted JQuery examples &amp; temlates
+Assorted JQuery examples &amp; templates
+
+- use last commit message
+```
+git config commit.template .gitmessage.txt
+```
