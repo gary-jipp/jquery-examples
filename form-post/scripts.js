@@ -4,7 +4,7 @@ $(function () {
   $("#send").on("click", function (event) {
     const data = $("#myForm").serialize();
     // Show request on page
-    $("#request").html(data);
+    $("#request").text(data);
 
     $.post("http://localhost:8080/api/form", data, res => {
       // Write response to page
@@ -13,7 +13,7 @@ $(function () {
   });
 
   $("#clear").on("click", function (event) {
-    $("#request").html("");
+    $("#request").text("");
     $("#response").html("");
   });
 });

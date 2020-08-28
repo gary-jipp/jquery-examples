@@ -23,8 +23,8 @@ $(function () {
   });
 
   $("#clear").on("click", function (event) {
-    $("#request1").html("");
-    $("#request2").html("");
+    $("#request1").text("");
+    $("#request2").text("");
     $("#response").html("");
   });
 });
