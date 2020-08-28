@@ -11,9 +11,16 @@ div {
   font-family: "Courier New", Courier, monospace;
 }
 
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  width: 20em;
+}
+
 input {
   width: 20em;
-  font-size: 0.7em;
+  font-size: inherit;
+   font-family: inherit;
 }
 button {
   height: 1.7em;
@@ -28,5 +35,5 @@ button {
   min-height: 1.2em;
   border: 1px solid lightgreen;
   white-space: pre-wrap;
-  padding: 2px;
+  padding: 4px;
 }
