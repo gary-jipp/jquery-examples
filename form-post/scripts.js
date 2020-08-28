@@ -2,7 +2,9 @@ $(function () {
   
   // submit form on button click
   $("#send").on("click", function (event) {
-    const data = $("#myForm").serialize();
+    const $form = $(this.form);
+    
+    const data = $form.serialize();
     // Show request on page
     $("#request").text(data);
 
