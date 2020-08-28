@@ -8,21 +8,25 @@
   </head>
 
   <body>
-    <h3>JQuery Form POST</h3>
+    <h3>JQuery Form SUBMIT</h3>
     <form id="myForm" method="POST">
       <div>Text 1 <input name="text1" placeholder="Enter some text" /></div>
       <div>Text 2 <input name="text2" placeholder="Enter some text" /></div>
-      <button id="send" type="button">Submit Form</button>
+      <div>
+        Notes <textarea name="text3" placeholder="Enter some text"></textarea>
+      </div>
+      <button id="send" type="submit">Submit Form</button>
       <button id="clear" type="button">Clear Data</button>
       <button type="reset">Reset Form</button>
     </form>
 
     <div class="show">
       UrlEncoded Request
-      <div id="request" class="data"></div>
+      <pre class="data"><code id="request1"></code></pre>
+      JSON Request
+      <pre class="data"><code id="request2"></code></pre>
       Response
       <div id="response" class="data"></div>
     </div>
-
   </body>
 </html>

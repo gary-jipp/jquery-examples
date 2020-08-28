@@ -6,15 +6,12 @@ html {
 }
 
 div {
-  margin-top: .5em;
-  margin-bottom: .5em;
-}
-
-div {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   font-family: "Courier New", Courier, monospace;
 }
 
-input{
+input {
   width: 20em;
   font-size: 0.7em;
 }
@@ -25,10 +22,11 @@ button {
 }
 
 .data {
+  margin-top: 0px;
+  margin-bottom: 0.5em;
   width: 30em;
-  word-break: break-all;
   min-height: 1.2em;
-  overflow: auto;
   border: 1px solid lightgreen;
+  white-space: pre-wrap;
   padding: 2px;
 }
