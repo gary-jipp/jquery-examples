@@ -17,7 +17,7 @@ $(function () {
       obj[input.name] = input.value;
     }
 
-    const json = JSON.stringify(obj, undefined, 2);
+    const json = JSON.stringify(obj, undefined, 1);
     console.log(json);
     $("#request2").text(json);
   });
